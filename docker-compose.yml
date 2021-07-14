@@ -1,0 +1,14 @@
+version: '3.3'
+services:
+    test:
+        network_mode: host
+        image: test_robot
+        shm_size: "2g"
+        environment:
+            USERNAME: sarputheen
+        volumes: [
+           "$PWD/suites:/suites",
+           "$PWD/scripts:/scripts",
+           "$PWD/page_objects:/page_objects",
+           "$PWD/reports:/reports"
+        ]
