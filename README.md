@@ -12,7 +12,7 @@ you can simply run::
     
 Docker Setup:  
 If you already have installed the docker , you can simply run::
- 1. cd <path of the docker file>
+ 1. cd [path] - path of the docker file
   
  2. docker build -f ./Dockerfile -t robot . 
   
