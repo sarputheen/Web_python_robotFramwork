@@ -2,7 +2,7 @@ version: '3.3'
 services:
     test:
         network_mode: host
-        image: test_robot
+        image: robot
         shm_size: "2g"
         environment:
             USERNAME: sarputheen
